@@ -1,0 +1,49 @@
+.homeSectionItem{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    align-items: center;
+    align-self: center;
+    justify-content: center;
+    
+box-shadow: 5px 4px 6px black;
+    padding: 10px;
+    margin-top: 20px;
+}
+.zambyuxi{
+    max-width: 1140px;
+    margin: 0  auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+
+}
+.homeSectionItem button{
+    padding: 4px;
+    border: none;
+    background-color: black;
+    color: aliceblue;
+    font-weight: bolder;
+    font-family: sans-serif;
+    cursor: pointer;
+}
+button{
+    padding: 10px;
+    border: none;
+    background-color: black;
+    color: aliceblue;
+    font-weight: bolder;
+    font-family: sans-serif;
+    cursor: pointer;
+
+}
+.img{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.img img{
+    width: 100%;
+}

@@ -1,0 +1,31 @@
+footer .container{
+    max-width: 1140px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+
+}
+footer{
+    padding: 20px;
+    margin-top: 50px;
+    box-shadow: 4px 5px 4px rgb(143, 141, 141);
+}
+
+footer h3{
+    font-size: 20px;
+    margin-bottom: 10px;
+
+
+}
+footer p{
+    font-size: 15px;
+}
+footer p:hover{
+    color: red;
+    cursor: pointer;
+}
+footer img{
+    width: 120px;
+    margin-bottom: 10px;
+}

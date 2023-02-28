@@ -1,0 +1,77 @@
+.HomeOne{
+   background-color:rgb(240,240,242) ;
+   height: 90vh;
+   display: flex;
+    
+}
+.HomeOne .container{
+    margin: 0 auto;
+    display: flex;
+    max-width: 1140px;
+    align-items: center;
+    align-self: center;
+    align-content: center;
+    justify-content: space-between;
+
+
+}
+.HomeOne .container :nth-child(1){
+   max-width:100% ;
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    justify-content: center;
+
+
+}
+.HomeOne .container :nth-child(1) h2{
+    font-size: 50px;
+}
+.HomeOne .container :nth-child(1) button{
+    width: 130px;
+    height: 40px;
+    color: rgb(252, 248, 248);
+    cursor: pointer;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s;
+}
+.HomeOne .container :nth-child(1) button:hover{
+    background-color: red;
+}
+.HomeOne .container :nth-child(1) p{
+    font-size: 20px;
+}
+.HomeOne .container :nth-child(2){
+    width:30% ;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+
+    gap: 28px;
+    justify-content: center;
+    height: 400px;
+
+
+
+}
+.heartbeat{
+    height: 100%;
+    width: 150px;
+    left: -60px;
+    /* top: 0; */
+    position: absolute;
+    /* position: absolute; */
+    overflow-clip-margin: content-box;
+    overflow: clip;
+    animation: heartbeat 1s infinite alternate;
+    animation-name: example;
+}
+@keyframes example {
+    0%   { width: 330px; height: 140%;}
+ 
+    100% {  width: 340px; height: 150%; }
+  }
+

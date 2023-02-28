@@ -1,0 +1,73 @@
+nav .container a{
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+    font-size: 24px;
+    font-family: sans-serif;
+
+
+   
+}
+nav .container a:hover, a.active{
+    border-bottom: 4px solid rebeccapurple;
+}
+nav .container{
+    position: relative;
+
+    display: flex;
+    height: 40px;
+    
+    max-width: 1140px;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-around;
+  
+
+}
+.navlink{
+    display: flex;
+    gap: 30px;
+}
+nav{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.z{
+    background-color: rgb(241, 244, 244);
+    display: flex;
+    width: 200px;
+    transition: all 1s;
+    max-height: 20px;
+    flex-direction: column;
+    overflow: auto;
+    position: absolute;
+    right: 100px;
+    top: 50px;
+    
+}
+.cart{
+    display: flex;
+    box-shadow: 4px 5px 6px rgb(176, 174, 174);
+    align-items: center;
+    gap: 40px;
+    transition: all 1s;
+    border-top:1px solid black ;
+    padding: 10px;
+}
+.cart img{
+    width: 40px;
+    height: 40px;
+
+}
+.z:hover{
+    max-height: 200px;
+    cursor: pointer;
+    border-radius: 10px;
+    color: brown;
+
+}
+.zCart{
+    color: black;
+    text-align: center;
+}

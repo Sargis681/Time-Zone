@@ -1,0 +1,13 @@
+.iti{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 120px auto;
+    height: 40vh;
+    
+}
+.iti img{
+    width: 20%;
+    height: 30vh;
+}
